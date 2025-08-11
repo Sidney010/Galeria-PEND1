@@ -5,7 +5,6 @@ function criarImagem(frutas){
     const img = document.createElement('img')
     const nome = document.createElement('p')
 
-    container.classList.add('item')
     img.src = frutas.url
     img.alt = frutas.nome
     nome.textContent = frutas.nome
